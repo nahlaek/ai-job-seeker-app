@@ -5,6 +5,9 @@ AI-powered job seeker SvelteKit static site
 Built with SvelteKit 2.0 + Svelte 5 (runes), Tailwind CSS v4, shadcn-svelte, TypeScript strict mode.
 Static output via `adapter-static` → `/build`.
 
+
+## Project Overview
+
 ## Stack
 
 - Framework: SvelteKit 2.0 with Svelte 5 (runes)
