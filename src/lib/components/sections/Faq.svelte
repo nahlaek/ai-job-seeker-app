@@ -41,7 +41,7 @@
   }
 </script>
 
-<section class="bg-brand-bg py-20 md:py-24">
+<section id="faq" class="bg-brand-bg flex min-h-screen flex-col justify-center py-16">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-12 max-w-2xl">
