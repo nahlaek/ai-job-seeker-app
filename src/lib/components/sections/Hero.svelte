@@ -24,7 +24,7 @@
   />
 
   <!-- white overlay with subtle blur -->
-  <div class="absolute inset-0 bg-white/35 backdrop-blur-[1px]"></div>
+  <div class="absolute inset-0 bg-white/35"></div>
 
   <!-- decorative glow blobs — sit above overlay, below content -->
   <div class="pointer-events-none absolute inset-0 z-10" aria-hidden="true">
