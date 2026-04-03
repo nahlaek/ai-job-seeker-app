@@ -1,12 +1,21 @@
 <script lang="ts">
-  import { APP_NAME } from '$lib/constants'
+  import Hero from '$lib/components/sections/Hero.svelte'
+  import PainPoints from '$lib/components/sections/PainPoints.svelte'
+  import Pricing from '$lib/components/sections/Pricing.svelte'
+  import HowItWorks from '$lib/components/sections/HowItWorks.svelte'
+  import Faq from '$lib/components/sections/Faq.svelte'
 </script>
 
 <svelte:head>
-  <title>{APP_NAME}</title>
+  <title>ai-job-seeker — Get hired in Germany faster</title>
+  <meta
+    name="description"
+    content="AI-powered CV and cover letter writing for the German job market. ATS-optimized, DIN 5008 compliant, built for IT professionals."
+  />
 </svelte:head>
 
-<section class="container mx-auto px-4 py-16">
-  <h1 class="text-4xl font-bold tracking-tight">{APP_NAME}</h1>
-  <p class="mt-4 text-lg text-gray-600">Your project is ready.</p>
-</section>
+<Hero />
+<PainPoints />
+<Pricing />
+<HowItWorks />
+<Faq />
