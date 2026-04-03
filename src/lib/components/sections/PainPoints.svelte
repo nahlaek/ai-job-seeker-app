@@ -23,7 +23,7 @@
   ]
 </script>
 
-<section class="bg-white py-20 md:py-24">
+<section class="flex min-h-screen flex-col justify-center bg-white py-16">
   <div class="relative mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-12 max-w-2xl">

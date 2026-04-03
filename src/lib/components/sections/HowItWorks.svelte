@@ -18,7 +18,7 @@
   ]
 </script>
 
-<section id="how-it-works" class="bg-white py-20 md:py-24">
+<section id="how-it-works" class="flex min-h-screen flex-col justify-center bg-white py-16">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-14 max-w-2xl">
