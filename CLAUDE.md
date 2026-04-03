@@ -5,7 +5,6 @@ AI-powered job seeker SvelteKit static site
 Built with SvelteKit 2.0 + Svelte 5 (runes), Tailwind CSS v4, shadcn-svelte, TypeScript strict mode.
 Static output via `adapter-static` → `/build`.
 
-
 ## Project Overview
 
 ## Stack
@@ -55,6 +54,7 @@ pnpm check --output machine    # TypeScript + svelte-check validation
 ## Interactive Commands — Never run autonomously
 
 Tell the user to run these manually. Never execute them yourself:
+
 - Any command that starts a dev or preview server (`pnpm dev`, `pnpm preview`)
 - Any scaffolding or init command (`pnpm create svelte`, `pnpm dlx shadcn-svelte@latest init`)
 - Any deployment command
