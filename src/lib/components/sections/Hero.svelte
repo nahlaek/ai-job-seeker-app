@@ -1,4 +1,4 @@
-<section class="relative flex min-h-screen items-center overflow-hidden bg-[#f8f7ff] py-16">
+<section class="relative flex items-center overflow-hidden bg-[#f8f7ff] py-16 md:min-h-[100dvh]">
   <!-- background image — single source ensures identical rendering on all platforms -->
   <div
     aria-hidden="true"

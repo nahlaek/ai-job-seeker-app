@@ -44,30 +44,42 @@ Trust line (small text, inline with · separators):
 ```
 Eyebrow:       "WHY YOUR APPLICATION ISN'T WORKING"
 H2:            "Most applications never make it past the first filter."
-Body text:     "80% of recruiters in Germany rate applications as mediocre at
-                best. Generic AI tools don't understand DIN 5008 formatting,
-                German cover letter conventions, or how ATS systems filter
-                candidates in the DACH market. IT roles take an average of
-                7.7 months to fill — not because there aren't candidates, but
-                because most applications never make it past the first filter."
+
+Stat strip (3 columns, desktop horizontal / mobile stacked):
+
+  1. Stat:        "80%"
+     Descriptor:  "of German recruiters rate CVs as inadequate"
+
+  2. Stat:        "7.7 months"
+     Descriptor:  "average time to fill an IT role in Germany"
+
+  3. Stat:        "75% filtered out"
+     Descriptor:  "before a human ever reads them"
 
 Cards (4):
 
   1. Title:   "ATS black hole"
-     Body:    "Your CV gets rejected by software before a human ever reads it.
-               75% of applications are filtered out by Applicant Tracking Systems."
+     Body:    "Your CV may never reach a human. Three in four applications
+               are eliminated by Applicant Tracking Systems before anyone
+               reads them."
 
   2. Title:   "Wrong format"
-     Body:    "International CVs don't match German standards. Missing Deckblatt,
-               wrong photo placement, no DIN 5008 compliance — instant rejection."
+     Body:    "A CV that works in London or Bangalore won't pass in Berlin.
+               Missing Deckblatt, incorrect photo placement, no DIN 5008
+               compliance. German recruiters notice immediately."
 
   3. Title:   "Generic AI output"
-     Body:    "ChatGPT doesn't know German market conventions. Cookie-cutter text
-               gets flagged by recruiters who've seen it a hundred times."
+     Body:    "ChatGPT doesn't know German hiring conventions. Templated
+               language stands out to DACH recruiters for the wrong reasons."
 
   4. Title:   "Invisible on LinkedIn & GitHub"
-     Body:    "Recruiters search LinkedIn and check GitHub before they call you.
-               An unoptimized profile means you never show up."
+     Body:    "German recruiters check your LinkedIn and GitHub before they
+               call. If your profiles aren't optimised for how they search,
+               you won't appear."
+
+Bridge CTA:
+  Text:      "These are fixable. Here's how we approach them."
+  Button:    "See How It Works →"    ← soft/outlined style, links to #how-it-works
 ```
 
 ---

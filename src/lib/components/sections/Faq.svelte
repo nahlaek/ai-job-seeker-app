@@ -26,10 +26,10 @@
   }
 </script>
 
-<section id="faq" class="flex min-h-screen flex-col justify-center bg-white py-16">
+<section id="faq" class="flex flex-col justify-center bg-white py-8 md:min-h-[100dvh] md:py-10">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
-    <div class="mb-12 max-w-2xl">
+    <div class="mb-8 max-w-2xl">
       <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">FAQ</p>
       <h2
         class="text-brand-ink text-[clamp(28px,4vw,44px)] leading-[1.1] font-extrabold tracking-[-0.04em]"
@@ -44,7 +44,7 @@
         <div class="border-brand-border border-t">
           <button
             onclick={() => toggle(i)}
-            class="text-brand-ink focus-visible:ring-brand-accent flex w-full items-center justify-between gap-4 py-5 text-left font-sans text-[15px] font-semibold transition-colors duration-150 hover:text-violet-700 focus-visible:ring-2 focus-visible:outline-none"
+            class="text-brand-ink focus-visible:ring-brand-accent flex w-full items-center justify-between gap-4 py-4 text-left font-sans text-[15px] font-semibold transition-colors duration-150 hover:text-violet-700 focus-visible:ring-2 focus-visible:outline-none"
             aria-expanded={openIndex === i}
           >
             <span>{item.question}</span>

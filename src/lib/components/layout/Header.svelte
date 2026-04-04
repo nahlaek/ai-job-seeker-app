@@ -2,10 +2,10 @@
   import { APP_NAME } from '$lib/constants'
 
   const navLinks = [
-    { label: 'Why it fails', href: '#pain-points' },
-    { label: 'Transformation', href: '#transformation' },
+    { label: 'The Problem', href: '#pain-points' },
+    { label: 'Results', href: '#transformation' },
     { label: 'Pricing', href: '#pricing' },
-    { label: 'How it works', href: '#how-it-works' },
+    { label: 'How It Works', href: '#how-it-works' },
     { label: 'FAQ', href: '#faq' },
   ]
 </script>

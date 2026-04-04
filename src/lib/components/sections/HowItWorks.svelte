@@ -18,10 +18,13 @@
   ]
 </script>
 
-<section id="how-it-works" class="flex min-h-screen flex-col justify-center bg-[#f8f7ff] py-16">
+<section
+  id="how-it-works"
+  class="flex flex-col justify-center bg-[#f8f7ff] py-8 md:min-h-[100dvh] md:py-10"
+>
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
-    <div class="mb-14 max-w-2xl">
+    <div class="mb-8 max-w-2xl">
       <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
         HOW IT WORKS
       </p>
@@ -36,11 +39,11 @@
     </div>
 
     <!-- steps -->
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
       {#each steps as step (step.number)}
         <div>
           <span
-            class="font-display text-brand-light/40 mb-2 block text-6xl font-black"
+            class="font-display text-brand-light/40 mb-1 block text-5xl font-black"
             aria-hidden="true"
           >
             {step.number}
