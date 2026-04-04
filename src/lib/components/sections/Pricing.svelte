@@ -78,11 +78,11 @@
   ]
 </script>
 
-<section id="pricing" class="flex flex-col justify-center bg-white py-6 md:min-h-[100dvh] md:py-8">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section id="pricing" class="flex flex-col bg-white py-4 md:h-[calc(100dvh-3.5rem)] md:py-5">
+  <div class="mx-auto flex max-w-7xl flex-col px-4 sm:px-6 md:flex-1 lg:px-8">
     <!-- header -->
-    <div class="mb-4 text-center">
-      <p class="text-brand-accent mb-2 text-[11px] font-bold tracking-[0.22em] uppercase">
+    <div class="mb-1.5 text-center">
+      <p class="text-brand-accent mb-1 text-[11px] font-bold tracking-[0.22em] uppercase">
         PRICING
       </p>
       <h2
@@ -93,7 +93,7 @@
     </div>
 
     <!-- trust badges -->
-    <div class="mb-3 flex flex-wrap justify-center gap-2">
+    <div class="mb-2 flex flex-wrap justify-center gap-2">
       {#each trustBadges as badge (badge)}
         <span
           class="flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 font-sans text-[13px] font-medium text-emerald-700"
@@ -105,7 +105,7 @@
     </div>
 
     <!-- grid -->
-    <div class="mb-4 grid grid-cols-1 items-stretch gap-4 md:grid-cols-2 xl:grid-cols-4">
+    <div class="mb-2 grid grid-cols-1 items-stretch gap-3 md:flex-1 md:grid-cols-2 xl:grid-cols-4">
       {#each tiers as tier (tier.name)}
         {#if tier.featured}
           <!-- featured card -->
