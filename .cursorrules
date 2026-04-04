@@ -1,0 +1,119 @@
+# ai-job-seeker-app
+
+AI-powered job seeker SvelteKit static site
+
+Built with SvelteKit 2.0 + Svelte 5 (runes), Tailwind CSS v4, shadcn-svelte, TypeScript strict mode.
+Static output via `adapter-static` → `/build`.
+
+## Project Overview
+
+## Stack
+
+- Framework: SvelteKit 2.0 with Svelte 5 (runes)
+- Styling: Tailwind CSS v4 (via @tailwindcss/vite — no tailwind.config.js needed)
+- UI components: shadcn-svelte (in src/lib/components/ui/)
+- Language: TypeScript strict mode
+- Package manager: pnpm
+
+## Commands
+
+```bash
+pnpm dev                       # Start dev server — user runs this
+pnpm build                     # Static build → /build
+pnpm preview                   # Preview build locally — user runs this
+pnpm lint:fix                  # ESLint auto-fix
+pnpm format:fix                # Prettier auto-fix
+pnpm check --output machine    # TypeScript + svelte-check validation
+```
+
+## Architecture
+
+- `src/routes/` — pages and layouts. Each folder = a URL segment.
+- `src/lib/components/ui/` — shadcn-svelte primitives (Button, Card, Input…)
+- `src/lib/components/layout/` — structural components (Header, Footer, Nav…)
+- `src/lib/stores/` — Svelte stores for shared reactive state
+- `src/lib/utils/` — pure utility functions (cn.ts, formatDate.ts…)
+- `src/lib/types/` — shared TypeScript types and interfaces
+- `src/lib/constants/` — app-wide constants (APP_NAME, ROUTES…)
+- `static/` — public assets at root URL (favicon, robots.txt, fonts)
+
+## Code Style
+
+- No semicolons (Prettier enforced)
+- 2 spaces indentation, never tabs
+- No emojis in code or comments
+- Minimal comments — only when the "why" is non-obvious
+- Simple solutions — prefer the boring, obvious approach over clever ones
+
+## Package Management
+
+- Always `pnpm`. Never `npm` or `yarn`.
+- Never `npx` — use `pnpm dlx` instead.
+- Add shadcn-svelte components: `pnpm dlx shadcn-svelte@latest add <component>`
+
+## Interactive Commands — Never run autonomously
+
+Tell the user to run these manually. Never execute them yourself:
+
+- Any command that starts a dev or preview server (`pnpm dev`, `pnpm preview`)
+- Any scaffolding or init command (`pnpm create svelte`, `pnpm dlx shadcn-svelte@latest init`)
+- Any deployment command
+
+## Svelte 5 Conventions
+
+- Use runes exclusively — no legacy reactive syntax:
+  - `$state()` for reactive local state
+  - `$derived()` for computed values
+  - `$effect()` for side effects
+  - `$props<{...}>()` for typed component props
+- Use `let { children } = $props()` — not `$$slots`
+- Use `{@render children?.()}` for slot rendering — not `<slot />`
+
+## TypeScript
+
+- Strict mode always — never disable or loosen it
+- No `any` — use `unknown` and narrow explicitly
+- Type all component props with `$props<{...}>()`
+- Type all function parameters and return values
+
+## Tailwind & Styling
+
+- Tailwind utility classes only — no custom CSS unless impossible to avoid
+- Use `cn()` from `$lib/utils/cn` for all conditional class merging
+- `app.css` only contains `@import 'tailwindcss'` — no `@tailwind` directives (that's v3)
+- shadcn-svelte components live in `src/lib/components/ui/` — import from there directly
+
+## Import Conventions
+
+- Always use `$lib` alias — never relative paths like `../../components`
+- `$lib` → `src/lib/` (auto-configured by SvelteKit, no setup needed)
+
+## Static Site Constraints
+
+- No server-side logic. No `+server.ts` files — they break static prerendering.
+- `export const prerender = true` is in `src/routes/+layout.ts` — do not remove it.
+- Fonts go in `static/fonts/` not `src/assets/` (need stable public URL at build time).
+
+## Gotchas
+
+- Tailwind v4: no `tailwind.config.js` — config lives in CSS or vite.config.ts.
+- No separate PostCSS config needed — the Vite plugin handles it.
+- `build/` and `.svelte-kit/` must not be committed (in .gitignore).
+
+## Definition of Done
+
+Before telling the user a task is complete, always run:
+
+1. `pnpm check --output machine` — zero TypeScript errors
+2. `pnpm lint:fix` — zero lint errors
+3. `pnpm format:fix` — code formatted
+4. Confirm the change matches existing patterns in the codebase
+
+Never declare a task done if any step produces errors.
+
+## When Making Changes
+
+1. Read this file first
+2. Maintain existing patterns — follow what the codebase already does
+3. For multi-step tasks, maintain a todo list to track progress
+4. Make the smallest change that solves the problem — do not refactor unrelated code
