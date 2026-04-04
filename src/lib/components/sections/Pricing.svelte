@@ -79,7 +79,7 @@
 </script>
 
 <section id="pricing" class="flex flex-col bg-white py-4 md:h-[calc(100dvh-3.5rem)] md:py-5">
-  <div class="mx-auto flex max-w-7xl flex-col px-4 sm:px-6 md:flex-1 lg:px-8">
+  <div class="mx-auto flex w-full max-w-[90rem] flex-col px-4 sm:px-6 md:flex-1 lg:px-8">
     <!-- header -->
     <div class="mb-1.5 text-center">
       <p class="text-brand-accent mb-1 text-[11px] font-bold tracking-[0.22em] uppercase">
@@ -105,7 +105,7 @@
     </div>
 
     <!-- grid -->
-    <div class="mb-2 grid grid-cols-1 items-stretch gap-3 md:flex-1 md:grid-cols-2 xl:grid-cols-4">
+    <div class="mb-2 grid grid-cols-1 items-stretch gap-4 md:flex-1 md:grid-cols-2 xl:grid-cols-4">
       {#each tiers as tier (tier.name)}
         {#if tier.featured}
           <!-- featured card -->
@@ -135,7 +135,7 @@
                 {tier.cadence}
               </span>
             </div>
-            <ul class="mb-3 flex flex-1 flex-col gap-1" role="list">
+            <ul class="mb-3 flex flex-1 flex-col gap-4" role="list">
               {#each tier.features as feature (feature)}
                 <li class="text-brand-light flex items-center gap-1.5 text-sm font-medium">
                   <span
@@ -171,7 +171,7 @@
                 {tier.cadence}
               </span>
             </div>
-            <ul class="mb-3 flex flex-1 flex-col gap-1" role="list">
+            <ul class="mb-3 flex flex-1 flex-col gap-4" role="list">
               {#each tier.features as feature (feature)}
                 <li class="text-brand-ink/80 flex items-center gap-1.5 text-sm font-medium">
                   <span
