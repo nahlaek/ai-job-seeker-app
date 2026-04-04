@@ -21,6 +21,8 @@
 html {
   background-color: #f8f7ff;
   color: #1a1040;
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
 }
 
 body {

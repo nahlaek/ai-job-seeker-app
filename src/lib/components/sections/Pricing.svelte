@@ -16,78 +16,79 @@
       tagline: 'Perfect to get started',
       price: '€59',
       cadence: 'one-time',
-      cta: 'Get CV Rewrite',
+      cta: 'Get started',
       features: [
         'ATS-optimized CV rewrite',
-        'DIN 5008 formatting',
-        'Keyword research for your target role',
-        '1 revision round',
-        'Delivered in 48 hours (PDF + DOCX)',
+        'German market formatting (DIN 5008)',
+        'Keyword optimization for your target role',
+        'Bilingual support (DE/EN)',
+        'PDF + DOCX delivery',
       ],
     },
     {
-      name: 'Cover Letter',
+      name: 'Full Application',
       tagline: 'Stand out from the first line',
-      price: '€39',
+      price: '€109',
       cadence: 'one-time',
-      cta: 'Get Cover Letter',
+      cta: 'Get started',
       features: [
-        'Tailored cover letter (Anschreiben)',
-        'Role-specific tone and phrasing',
-        'Addresses the job posting directly',
-        '1 revision round',
-        'Delivered in 48 hours (PDF + DOCX)',
+        'Everything in CV Rewrite',
+        'Personalized cover letter tailored to your target job',
+        'LinkedIn profile optimization',
+        'ATS keyword strategy document',
+        'Delivered same day',
       ],
     },
     {
       name: 'IT Complete',
       tagline: 'For IT professionals',
       price: '€149',
-      cadence: 'one-time',
-      cta: 'Get IT Complete',
+      cadence: 'one-time · for IT professionals',
+      cta: 'Get started',
       featured: true,
       badge: 'MOST POPULAR',
       features: [
-        'Everything in CV Rewrite',
-        'Everything in Cover Letter',
-        'LinkedIn headline + summary rewrite',
-        'GitHub / portfolio framing tips',
-        '2 revision rounds',
-        'Priority delivery in 24 hours',
+        'Everything in Full Application',
+        'GitHub profile optimization',
+        'README and profile page rewrite',
+        'Project descriptions refined for recruiters',
+        'Tech stack keyword alignment',
       ],
     },
     {
-      name: 'Full Package',
+      name: '90-Day Accelerator',
       tagline: 'Complete job search support',
       price: '€249',
-      cadence: 'one-time',
-      cta: 'Get Full Package',
+      cadence: 'one-time · for IT professionals',
+      cta: 'Get started',
       features: [
         'Everything in IT Complete',
-        '30-min strategy call (video)',
-        'Interview preparation guide',
-        'Salary negotiation talking points',
-        '3 revision rounds',
-        'Dedicated account manager',
+        'AI-powered mock interview sessions',
+        'Technical interview prep (system design, coding)',
+        'Behavioral coaching (STAR method)',
+        'Ongoing CV updates for new applications',
+        'Weekly job market insights for your niche',
+        '90 days of support',
       ],
     },
   ]
 </script>
 
-<section id="pricing" class="bg-brand-bg flex min-h-screen flex-col justify-center py-16">
+<section id="pricing" class="flex min-h-screen flex-col justify-center bg-white py-16">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-12 text-center">
       <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
-        Pricing
+        PRICING
       </p>
       <h2
         class="text-brand-ink mb-4 text-[clamp(28px,4vw,44px)] leading-[1.1] font-extrabold tracking-[-0.04em]"
       >
-        One-time. No subscription.
+        Choose your plan
       </h2>
       <p class="text-brand-muted text-lg leading-[1.7]">
-        Pay once, own the result. Every document delivered within 48 hours.
+        All plans include instant delivery, ATS optimization, and German market formatting.
+        Tax-deductible as Werbungskosten.
       </p>
     </div>
 
@@ -177,7 +178,8 @@
 
     <!-- fine print -->
     <p class="text-brand-hint text-center text-xs font-medium">
-      Prices include VAT. All documents are tax-deductible as job-seeking expenses under §9 EStG.
+      All prices include VAT. Costs are fully tax-deductible as Werbungskosten in Germany (§9 EStG).
+      Effective cost after tax: €34–145 depending on your tax bracket.
     </p>
   </div>
 </section>

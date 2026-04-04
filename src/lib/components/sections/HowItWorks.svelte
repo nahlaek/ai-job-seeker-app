@@ -2,33 +2,33 @@
   const steps = [
     {
       number: '01',
-      title: 'Share your details',
-      body: 'Fill out a short form: your current CV, target role, and the job posting you are applying for. Takes about 10 minutes.',
+      title: 'Upload',
+      body: 'Submit your current CV and target job description through our secure form. Tell us your goals.',
     },
     {
       number: '02',
-      title: 'We rewrite everything',
-      body: 'Our AI — guided by German HR specialists — rewrites your CV and cover letter to match the role, the ATS filters, and German market expectations.',
+      title: 'We optimize',
+      body: 'Our AI analyzes your profile against German market standards, ATS requirements, and your target role. Every document is reviewed for quality.',
     },
     {
       number: '03',
-      title: 'Review and apply',
-      body: 'You receive polished PDF and DOCX files within 48 hours. One revision round included. Then apply with confidence.',
+      title: 'Get hired',
+      body: 'Receive your optimized documents within minutes. Start applying with confidence.',
     },
   ]
 </script>
 
-<section id="how-it-works" class="flex min-h-screen flex-col justify-center bg-white py-16">
+<section id="how-it-works" class="flex min-h-screen flex-col justify-center bg-[#f8f7ff] py-16">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-14 max-w-2xl">
       <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
-        The process
+        HOW IT WORKS
       </p>
       <h2
         class="text-brand-ink mb-4 text-[clamp(28px,4vw,44px)] leading-[1.1] font-extrabold tracking-[-0.04em]"
       >
-        Three steps to a job-ready application
+        Three steps. Done in minutes.
       </h2>
       <p class="text-brand-muted text-lg leading-[1.7]">
         No calls, no back-and-forth. Just a clean handoff and a polished result.

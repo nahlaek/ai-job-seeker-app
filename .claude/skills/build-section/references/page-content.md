@@ -1,7 +1,8 @@
-# Page Content Reference — ai-job-seeker
+# Page Content Reference — ai-job-seeker-app
 
 All copy, labels, data, and structure for every landing page section.
 Read this file in full before building any section component.
+Use text verbatim — do not paraphrase or invent copy.
 
 ---
 
@@ -9,8 +10,9 @@ Read this file in full before building any section component.
 
 ```
 Page title:    "ai-job-seeker — Get hired in Germany faster"
-Description:   "AI-powered CV and cover letter writing for the German job market.
-                ATS-optimized, DIN 5008 compliant, built for IT professionals."
+Description:   "AI-powered CV, cover letter, LinkedIn, and GitHub optimization
+                built for the German job market. ATS-optimized, DIN 5008
+                compliant, delivered in minutes."
 ```
 
 ---
@@ -18,22 +20,21 @@ Description:   "AI-powered CV and cover letter writing for the German job market
 ## Section 1 — Hero
 
 ```
-Eyebrow:       "AI-Powered Job Applications"
+Eyebrow:       (none)
 
 H1 line 1:     "Get hired in Germany —"
-H1 accent:     "faster."            ← italic, violet underline
+H1 accent:     "faster."            ← italic, violet, underline, last word
 
-Subheadline:   "We rewrite your CV and cover letter for the German job market.
-                ATS-optimized, DIN 5008 compliant, and tailored to your target role."
+Subheadline:   "AI-powered CV, cover letter, LinkedIn, and GitHub optimization
+                built for the German job market. Delivered in minutes, not days.
+                From €59."
 
 CTA primary:   "See pricing →"      ← links to #pricing
 CTA ghost:     "How it works"       ← smooth-scrolls to #how-it-works
 
-Trust badges:
-  - "✓ ATS-optimized"
-  - "✓ DIN 5008 compliant"
-  - "✓ Tax-deductible"
-  - "✓ GDPR-compliant"
+Trust line (small text, inline with · separators):
+  "✓ ATS-optimized  ·  ✓ DIN 5008 compliant  ·
+   ✓ Tax-deductible (Werbungskosten)  ·  ✓ GDPR-compliant"
 ```
 
 ---
@@ -41,31 +42,32 @@ Trust badges:
 ## Section 2 — Pain Points
 
 ```
-Eyebrow:       "The problem"
-H2:            "The German job market plays by different rules"
-Subheadline:   "Most CVs from outside Germany get rejected before a human ever reads them."
+Eyebrow:       "WHY YOUR APPLICATION ISN'T WORKING"
+H2:            "Most applications never make it past the first filter."
+Body text:     "80% of recruiters in Germany rate applications as mediocre at
+                best. Generic AI tools don't understand DIN 5008 formatting,
+                German cover letter conventions, or how ATS systems filter
+                candidates in the DACH market. IT roles take an average of
+                7.7 months to fill — not because there aren't candidates, but
+                because most applications never make it past the first filter."
 
 Cards (4):
 
-  1. Icon: 📄
-     Title:   "Wrong format"
-     Body:    "German employers expect DIN 5008 structure, a photo, and specific
-               section order. International CVs look unprofessional by default."
+  1. Title:   "ATS black hole"
+     Body:    "Your CV gets rejected by software before a human ever reads it.
+               75% of applications are filtered out by Applicant Tracking Systems."
 
-  2. Icon: 🤖
-     Title:   "ATS rejection"
-     Body:    "Applicant tracking systems filter out CVs that lack the right
-               keywords. Most candidates never make it to a recruiter's inbox."
+  2. Title:   "Wrong format"
+     Body:    "International CVs don't match German standards. Missing Deckblatt,
+               wrong photo placement, no DIN 5008 compliance — instant rejection."
 
-  3. Icon: 🌐
-     Title:   "Language mismatch"
-     Body:    "Even fluent German speakers miss the industry-specific phrasing
-               that signals cultural fit and domain expertise to hiring managers."
+  3. Title:   "Generic AI output"
+     Body:    "ChatGPT doesn't know German market conventions. Cookie-cutter text
+               gets flagged by recruiters who've seen it a hundred times."
 
-  4. Icon: ⏱
-     Title:   "Hours wasted"
-     Body:    "Rewriting a CV for each application takes hours. Most people
-               send the same document everywhere — and get silence back."
+  4. Title:   "Invisible on LinkedIn & GitHub"
+     Body:    "Recruiters search LinkedIn and check GitHub before they call you.
+               An unoptimized profile means you never show up."
 ```
 
 ---
@@ -73,66 +75,70 @@ Cards (4):
 ## Section 3 — Pricing
 
 ```
-Eyebrow:       "Pricing"
-H2:            "One-time. No subscription."
-Subheadline:   "Pay once, own the result. Every document delivered within 48 hours."
+Eyebrow:       "PRICING"
+H2:            "Choose your plan"
+Subheadline:   "All plans include instant delivery, ATS optimization, and German
+                market formatting. Tax-deductible as Werbungskosten."
 
-Fine print:    "Prices include VAT. All documents are tax-deductible as job-seeking expenses under §9 EStG."
+Fine print:    "All prices include VAT. Costs are fully tax-deductible as
+                Werbungskosten in Germany (§9 EStG). Effective cost after tax:
+                €34–145 depending on your tax bracket."
 
 Cards (4):
 
-  1. CV Rewrite          — standard tier
-     Tagline:    "Perfect to get started"
-     Price:      €59
-     Cadence:    one-time
+  1. Name:     "CV Rewrite"
+     Price:    €59
+     Cadence:  one-time
+     Badge:    (none)
+     Featured: false
+     CTA:      "Get started"
      Features:
        - ATS-optimized CV rewrite
-       - DIN 5008 formatting
-       - Keyword research for your target role
-       - 1 revision round
-       - Delivered in 48 hours (PDF + DOCX)
+       - German market formatting (DIN 5008)
+       - Keyword optimization for your target role
+       - Bilingual support (DE/EN)
+       - PDF + DOCX delivery
 
-  2. Cover Letter        — standard tier
-     Tagline:    "Stand out from the first line"
-     Price:      €39
-     Cadence:    one-time
-     Features:
-       - Tailored cover letter (Anschreiben)
-       - Role-specific tone and phrasing
-       - Addresses the job posting directly
-       - 1 revision round
-       - Delivered in 48 hours (PDF + DOCX)
-
-  3. IT Complete         — FEATURED tier (dark navy card)
-     Badge:      "MOST POPULAR"
-     Tagline:    "For IT professionals"
-     Price:      €149
-     Cadence:    one-time
+  2. Name:     "Full Application"
+     Price:    €109
+     Cadence:  one-time
+     Badge:    (none)
+     Featured: false
+     CTA:      "Get started"
      Features:
        - Everything in CV Rewrite
-       - Everything in Cover Letter
-       - LinkedIn profile headline + summary rewrite
-       - GitHub / portfolio framing tips
-       - 2 revision rounds
-       - Priority delivery in 24 hours
+       - Personalized cover letter tailored to your target job
+       - LinkedIn profile optimization
+       - ATS keyword strategy document
+       - Delivered same day
 
-  4. Full Package        — standard tier
-     Tagline:    "Complete job search support"
-     Price:      €249
-     Cadence:    one-time
+  3. Name:     "IT Complete"
+     Price:    €149
+     Cadence:  one-time · for IT professionals
+     Badge:    "MOST POPULAR"
+     Featured: true            ← dark navy card, violet border, badge pill above
+     CTA:      "Get started"
+     Features:
+       - Everything in Full Application
+       - GitHub profile optimization
+       - README and profile page rewrite
+       - Project descriptions refined for recruiters
+       - Tech stack keyword alignment
+
+  4. Name:     "90-Day Accelerator"
+     Price:    €249
+     Cadence:  one-time · for IT professionals
+     Badge:    "BEST VALUE"
+     Featured: false
+     CTA:      "Get started"
      Features:
        - Everything in IT Complete
-       - 30-min strategy call (video)
-       - Interview preparation guide (role-specific)
-       - Salary negotiation talking points
-       - 3 revision rounds
-       - Dedicated account manager
-
-CTA labels:
-  - Card 1: "Get CV Rewrite"
-  - Card 2: "Get Cover Letter"
-  - Card 3: "Get IT Complete"   ← violet button (featured)
-  - Card 4: "Get Full Package"
+       - AI-powered mock interview sessions
+       - Technical interview prep (system design, coding)
+       - Behavioral coaching (STAR method)
+       - Ongoing CV updates for new applications
+       - Weekly job market insights for your niche
+       - 90 days of support
 ```
 
 ---
@@ -140,23 +146,23 @@ CTA labels:
 ## Section 4 — How It Works
 
 ```
-Eyebrow:       "The process"
-H2:            "Three steps to a job-ready application"
-Subheadline:   "No calls, no back-and-forth. Just a clean handoff and a polished result."
+Eyebrow:       "HOW IT WORKS"
+H2:            "Three steps. Done in minutes."
 
 Steps (3):
 
-  01. Share your details
-      "Fill out a short form: your current CV, target role, and the job posting
-       you are applying for. Takes about 10 minutes."
+  01. Title:   "Upload"
+      Body:    "Submit your current CV and target job description through our
+                secure form. Tell us your goals."
 
-  02. We rewrite everything
-      "Our AI — guided by German HR specialists — rewrites your CV and cover
-       letter to match the role, the ATS filters, and German market expectations."
+  02. Title:   "We optimize"
+      Body:    "Our AI analyzes your profile against German market standards,
+                ATS requirements, and your target role. Every document is
+                reviewed for quality."
 
-  03. Review and apply
-      "You receive polished PDF and DOCX files within 48 hours. One revision
-       round included. Then apply with confidence."
+  03. Title:   "Get hired"
+      Body:    "Receive your optimized documents within minutes. Start applying
+                with confidence."
 ```
 
 ---
@@ -165,37 +171,28 @@ Steps (3):
 
 ```
 Eyebrow:       "FAQ"
-H2:            "Questions we get a lot"
+H2:            "Frequently asked questions"
 
-Items (6):
+Items (3):
 
-  Q: "Do I need to speak German to use this service?"
-  A: "No. We work in English and German. If you are applying to German-language
-     roles, we write your documents in German. For English-speaking companies
-     in Germany (many tech firms), we write in English."
+  Q: "Is this just ChatGPT with a wrapper?"
+  A: "No. Our system uses custom AI pipelines specifically trained on German
+     application standards — DIN 5008 formatting, DACH-specific cover letter
+     conventions, ATS keyword strategies used by German employers, and recruiter
+     preferences in the German market. The output is reviewed for quality before
+     delivery. This is not a generic AI tool."
 
-  Q: "How long does delivery take?"
-  A: "Standard delivery is 48 hours after we receive your completed intake form.
-     IT Complete orders are delivered within 24 hours. Full Package includes a
-     scheduled strategy call which may extend the timeline by one day."
+  Q: "Can I really deduct this from my taxes?"
+  A: "Yes. In Germany, all job application costs (Bewerbungskosten) are fully
+     tax-deductible as Werbungskosten under §9 EStG. This applies whether you
+     are employed or unemployed. Keep your receipt — our invoice is accepted by
+     the Finanzamt."
 
-  Q: "What do you need from me?"
-  A: "Your current CV (any format), the job posting or role description you are
-     targeting, and a short intake form that takes about 10 minutes to complete."
-
-  Q: "Can I request revisions?"
-  A: "Yes. CV Rewrite and Cover Letter include 1 revision round. IT Complete
-     includes 2 rounds. Full Package includes 3 rounds. Additional revisions
-     can be requested for a flat fee of €19 each."
-
-  Q: "Is this tax-deductible in Germany?"
-  A: "Yes. Job-seeking expenses (Bewerbungskosten) are deductible under §9 EStG.
-     We provide a proper invoice you can submit with your Steuererklärung."
-
-  Q: "What if I am not satisfied?"
-  A: "If after your revision rounds the result still does not meet your
-     expectations, contact us. We review every case individually and either
-     redo the work or issue a refund."
+  Q: "How is my data handled?"
+  A: "We are fully GDPR-compliant. Your personal data is processed solely for
+     the purpose of creating your application documents. We do not share, sell,
+     or retain your data beyond the service delivery period. You can request
+     deletion at any time. Our Datenschutzerklärung is available on this page."
 ```
 
 ---
@@ -203,29 +200,32 @@ Items (6):
 ## Section 6 — Final CTA + Footer
 
 ```
-CTA Section (bg-brand-ink):
-  Eyebrow:     "Get started today"
-  H2 line 1:   "Your next job is one"
-  H2 accent:   "application away."    ← italic, lighter violet
-  Subheadline: "Join hundreds of professionals who landed jobs in Germany
-                with a CV that actually works."
-  CTA button:  "See pricing →"        ← links to #pricing
+CTA Section (bg-brand-ink, dark navy):
+  H2 line 1:   "Every week without a job costs you €800+."
+  H2 line 2:   "Your optimized application costs €59."
+  Subheadline: "Join hundreds of professionals who've landed interviews at
+                companies across Germany — from SAP and Siemens to Berlin
+                startups."
+  CTA button:  "Start now — from €59 →"    ← links to #pricing
 
 Footer bar (bg-[#100d2e]):
-  Copyright:   "© 2025 ai-job-seeker"
-  Nav links:
-    - "Privacy"     → /privacy
-    - "Imprint"     → /imprint
-    - "Contact"     → mailto:hello@ai-job-seeker.de
+  Copyright:   "© 2025 ai-job-seeker-app"
+  Nav links (· separated):
+    - "Impressum"
+    - "Datenschutzerklärung"
+    - "AGB"
+    - "Kontakt"
 ```
 
 ---
 
-## Notes for review
+## Notes for launch
 
-The following values are placeholders — confirm before launch:
+The following are placeholders — confirm before going live:
 
-- APP_URL / domain name
+- Domain / APP_URL
 - Contact email address
-- Legal pages (/privacy, /imprint) — required under German law (DSGVO + Impressumspflicht)
-- VAT treatment (confirm with tax advisor if applicable)
+- Legal pages (Impressum, Datenschutzerklärung, AGB) — required under
+  German law (DSGVO + Impressumspflicht)
+- VAT treatment — confirm with tax advisor
+- Copyright year — update from 2025 if needed

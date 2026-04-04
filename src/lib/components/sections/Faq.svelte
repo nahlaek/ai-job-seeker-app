@@ -3,34 +3,19 @@
 
   const items: FaqItem[] = [
     {
-      question: 'Do I need to speak German to use this service?',
+      question: 'Is this just ChatGPT with a wrapper?',
       answer:
-        'No. We work in English and German. If you are applying to German-language roles, we write your documents in German. For English-speaking companies in Germany (many tech firms), we write in English.',
+        'No. Our system uses custom AI pipelines specifically trained on German application standards — DIN 5008 formatting, DACH-specific cover letter conventions, ATS keyword strategies used by German employers, and recruiter preferences in the German market. The output is reviewed for quality before delivery. This is not a generic AI tool.',
     },
     {
-      question: 'How long does delivery take?',
+      question: 'Can I really deduct this from my taxes?',
       answer:
-        'Standard delivery is 48 hours after we receive your completed intake form. IT Complete orders are delivered within 24 hours. Full Package includes a scheduled strategy call which may extend the timeline by one day.',
+        'Yes. In Germany, all job application costs (Bewerbungskosten) are fully tax-deductible as Werbungskosten under §9 EStG. This applies whether you are employed or unemployed. Keep your receipt — our invoice is accepted by the Finanzamt.',
     },
     {
-      question: 'What do you need from me?',
+      question: 'How is my data handled?',
       answer:
-        'Your current CV (any format), the job posting or role description you are targeting, and a short intake form that takes about 10 minutes to complete.',
-    },
-    {
-      question: 'Can I request revisions?',
-      answer:
-        'Yes. CV Rewrite and Cover Letter include 1 revision round. IT Complete includes 2 rounds. Full Package includes 3 rounds. Additional revisions can be requested for a flat fee of €19 each.',
-    },
-    {
-      question: 'Is this tax-deductible in Germany?',
-      answer:
-        'Yes. Job-seeking expenses (Bewerbungskosten) are deductible under §9 EStG. We provide a proper invoice you can submit with your Steuererklärung.',
-    },
-    {
-      question: 'What if I am not satisfied?',
-      answer:
-        'If after your revision rounds the result still does not meet your expectations, contact us. We review every case individually and either redo the work or issue a refund.',
+        'We are fully GDPR-compliant. Your personal data is processed solely for the purpose of creating your application documents. We do not share, sell, or retain your data beyond the service delivery period. You can request deletion at any time. Our Datenschutzerklärung is available on this page.',
     },
   ]
 
@@ -41,7 +26,7 @@
   }
 </script>
 
-<section id="faq" class="bg-brand-bg flex min-h-screen flex-col justify-center py-16">
+<section id="faq" class="flex min-h-screen flex-col justify-center bg-white py-16">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-12 max-w-2xl">
@@ -49,7 +34,7 @@
       <h2
         class="text-brand-ink text-[clamp(28px,4vw,44px)] leading-[1.1] font-extrabold tracking-[-0.04em]"
       >
-        Questions we get a lot
+        Frequently asked questions
       </h2>
     </div>
 

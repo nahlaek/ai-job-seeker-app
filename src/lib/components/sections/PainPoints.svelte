@@ -2,41 +2,44 @@
   const cards = [
     {
       icon: '📄',
-      title: 'Wrong format',
-      body: 'German employers expect DIN 5008 structure, a photo, and specific section order. International CVs look unprofessional by default.',
+      title: 'ATS black hole',
+      body: 'Your CV gets rejected by software before a human ever reads it. 75% of applications are filtered out by Applicant Tracking Systems.',
     },
     {
       icon: '🤖',
-      title: 'ATS rejection',
-      body: "Applicant tracking systems filter out CVs that lack the right keywords. Most candidates never make it to a recruiter's inbox.",
+      title: 'Wrong format',
+      body: 'International CVs don\'t match German standards. Missing Deckblatt, wrong photo placement, no DIN 5008 compliance — instant rejection.',
     },
     {
       icon: '🌐',
-      title: 'Language mismatch',
-      body: 'Even fluent German speakers miss the industry-specific phrasing that signals cultural fit and domain expertise to hiring managers.',
+      title: 'Generic AI output',
+      body: "ChatGPT doesn't know German market conventions. Cookie-cutter text gets flagged by recruiters who've seen it a hundred times.",
     },
     {
       icon: '⏱',
-      title: 'Hours wasted',
-      body: 'Rewriting a CV for each application takes hours. Most people send the same document everywhere — and get silence back.',
+      title: 'Invisible on LinkedIn & GitHub',
+      body: 'Recruiters search LinkedIn and check GitHub before they call you. An unoptimized profile means you never show up.',
     },
   ]
 </script>
 
-<section class="flex min-h-screen flex-col justify-center bg-white py-16">
+<section id="pain-points" class="flex min-h-screen flex-col justify-center bg-white py-16">
   <div class="relative mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-12 max-w-2xl">
       <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
-        The problem
+        WHY YOUR APPLICATION ISN'T WORKING
       </p>
       <h2
         class="text-brand-ink mb-4 text-[clamp(28px,4vw,44px)] leading-[1.1] font-extrabold tracking-[-0.04em]"
       >
-        The German job market plays by different rules
+        Most applications never make it past the first filter.
       </h2>
       <p class="text-brand-muted text-lg leading-[1.7]">
-        Most CVs from outside Germany get rejected before a human ever reads them.
+        80% of recruiters in Germany rate applications as mediocre at best. Generic AI tools don't
+        understand DIN 5008 formatting, German cover letter conventions, or how ATS systems filter
+        candidates in the DACH market. IT roles take an average of 7.7 months to fill — not because
+        there aren't candidates, but because most applications never make it past the first filter.
       </p>
     </div>
 

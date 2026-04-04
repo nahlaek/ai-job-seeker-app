@@ -1,4 +1,4 @@
-<section class="relative flex min-h-screen items-center overflow-hidden py-16">
+<section class="relative flex min-h-screen items-center overflow-hidden bg-[#f8f7ff] py-16">
   <!-- background image — single source ensures identical rendering on all platforms -->
   <div
     aria-hidden="true"
@@ -54,8 +54,8 @@
 
       <!-- subheadline -->
       <p class="text-brand-muted mb-10 max-w-xl font-sans text-lg leading-[1.7] font-normal">
-        We rewrite your CV and cover letter for the German job market. ATS-optimized, DIN 5008
-        compliant, and tailored to your target role.
+        AI-powered CV, cover letter, LinkedIn, and GitHub optimization built for the German job
+        market. Delivered in minutes, not days. From €59.
       </p>
 
       <!-- CTAs -->
@@ -67,7 +67,7 @@
           See pricing →
         </a>
         <a
-          href="#how-it-works"
+          href="#pain-points"
           class="border-brand-light hover:border-brand-accent hover:bg-brand-pale focus-visible:ring-brand-accent inline-flex items-center justify-center gap-2 rounded-full border px-7 py-3.5 font-sans text-[15px] font-semibold text-violet-800 transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
         >
           How it works
@@ -80,7 +80,7 @@
       >
         <span>✓ ATS-optimized</span>
         <span>✓ DIN 5008 compliant</span>
-        <span>✓ Tax-deductible</span>
+        <span>✓ Tax-deductible (Werbungskosten)</span>
         <span>✓ GDPR-compliant</span>
       </div>
     </div>
