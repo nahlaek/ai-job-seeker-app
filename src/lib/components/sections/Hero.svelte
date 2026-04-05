@@ -56,7 +56,7 @@
       <!-- subheadline -->
       <p class="mb-6 max-w-2xl font-sans text-base leading-[1.65] font-normal text-white/70">
         We tailor your CV, cover letter, LinkedIn, and GitHub profile to German employer
-        expectations — DIN 5008 formatting, ATS requirements, and local hiring norms included. Ready
+        expectations, DIN 5008 formatting, ATS requirements, and local hiring norms included. Ready
         in minutes.
       </p>
 

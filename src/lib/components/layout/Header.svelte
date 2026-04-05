@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { APP_NAME } from '$lib/constants'
+  import Logo from '$lib/components/Logo.svelte'
 
   const navLinks = [
     { label: 'The Problem', href: '#pain-points' },
@@ -12,12 +12,7 @@
 <header class="border-brand-line bg-brand-surface/80 sticky top-0 z-50 border-b backdrop-blur-sm">
   <div class="mx-auto flex h-14 max-w-6xl items-center justify-between px-9">
     <!-- logo -->
-    <a
-      href="/"
-      class="font-display text-brand-ink text-[15px] font-bold tracking-[-0.02em] transition-colors hover:text-purple-700"
-    >
-      {APP_NAME}
-    </a>
+    <Logo />
 
     <!-- nav pill -->
     <nav class="hidden items-center sm:flex">
