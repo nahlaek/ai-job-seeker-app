@@ -63,6 +63,9 @@
     letter-spacing: -0.5px;
     color: #26215c;
   }
+  .logo[data-variant='dark'] .wordmark {
+    color: white;
+  }
   .highlight {
     color: #14b8a6;
   }
@@ -73,5 +76,11 @@
     text-transform: uppercase;
     color: #7f77dd;
     line-height: 1;
+  }
+  .logo[data-variant='dark'] .tagline {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .logo[data-variant='dark'] .dot {
+    border-color: #1e0e3e;
   }
 </style>

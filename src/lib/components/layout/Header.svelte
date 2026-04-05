@@ -2,10 +2,10 @@
   import Logo from '$lib/components/Logo.svelte'
 
   const navLinks = [
-    { label: 'The Problem', href: '#pain-points' },
-    { label: 'How It Works', href: '#how-it-works' },
-    { label: 'Pricing', href: '#pricing' },
-    { label: 'FAQ', href: '#faq' },
+    { label: 'The Problem', href: '/#pain-points' },
+    { label: 'How It Works', href: '/#how-it-works' },
+    { label: 'Pricing', href: '/#pricing' },
+    { label: 'FAQ', href: '/#faq' },
   ]
 </script>
 
@@ -30,7 +30,7 @@
 
     <!-- cta -->
     <a
-      href="#pricing"
+      href="/#pricing"
       class="hidden rounded-full bg-teal-500 px-5 py-2 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-teal-400 focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2 focus-visible:outline-none sm:inline-flex"
     >
       Get started →

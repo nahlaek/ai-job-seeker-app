@@ -88,14 +88,14 @@
       <!-- CTAs -->
       <div class="mb-6 flex flex-col gap-2.5 sm:flex-row">
         <a
-          href="#pricing"
+          href="/#pricing"
           aria-label="Primary call to action"
           class="inline-flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-7 py-3 font-sans text-[14px] font-bold text-white shadow-lg shadow-teal-600/30 transition-colors duration-200 hover:bg-teal-400 focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2 focus-visible:ring-offset-purple-800 focus-visible:outline-none"
         >
           See our plans →
         </a>
         <a
-          href="#how-it-works"
+          href="/#how-it-works"
           class="inline-flex items-center justify-center gap-2 rounded-lg border border-white/25 px-7 py-3 font-sans text-[14px] font-semibold text-white transition-colors duration-200 hover:border-white/50 hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:ring-offset-purple-800 focus-visible:outline-none"
         >
           How it works

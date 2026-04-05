@@ -166,7 +166,7 @@
         These are fixable. Here's how we approach them.
       </p>
       <a
-        href="#how-it-works"
+        href="/#how-it-works"
         class="inline-flex items-center justify-center rounded-lg bg-teal-500 px-6 py-2.5 font-sans text-[13px] font-semibold text-white shadow-sm shadow-teal-500/20 transition-colors duration-200 hover:bg-teal-400 focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2 focus-visible:outline-none"
       >
         See How It Works →
