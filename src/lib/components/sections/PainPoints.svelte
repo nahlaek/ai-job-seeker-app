@@ -62,10 +62,10 @@
     <div class="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
       {#each cards as card, i (card.title)}
         <div
-          class="border-brand-border hover:border-brand-mid/50 flex flex-col rounded-2xl border bg-white p-5 transition-all duration-200 hover:shadow-lg hover:shadow-purple-200/40"
+          class="border-brand-border flex flex-col rounded-2xl border bg-white p-5 transition-all duration-200 hover:border-purple-300 hover:shadow-lg hover:shadow-purple-200/40"
         >
           <div
-            class="bg-brand-gold/15 mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl"
+            class="mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-teal-500/10"
             aria-hidden="true"
           >
             {#if i === 0}
@@ -80,7 +80,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="text-brand-accent"
+                class="text-teal-600"
               >
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                 <line x1="9.5" y1="9.5" x2="14.5" y2="14.5" />
@@ -98,7 +98,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="text-brand-accent"
+                class="text-teal-600"
               >
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                 <polyline points="14 2 14 8 20 8" />
@@ -117,7 +117,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="text-brand-accent"
+                class="text-teal-600"
               >
                 <path
                   d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"
@@ -139,7 +139,7 @@
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                class="text-brand-accent"
+                class="text-teal-600"
               >
                 <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24" />
                 <path
@@ -167,7 +167,7 @@
       </p>
       <a
         href="#how-it-works"
-        class="border-brand-accent text-brand-accent hover:bg-brand-pale focus-visible:ring-brand-accent inline-flex items-center justify-center rounded-full border px-6 py-2.5 font-sans text-[13px] font-semibold transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+        class="inline-flex items-center justify-center rounded-lg bg-teal-500 px-6 py-2.5 font-sans text-[13px] font-semibold text-white shadow-sm shadow-teal-500/20 transition-colors duration-200 hover:bg-teal-400 focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2 focus-visible:outline-none"
       >
         See How It Works →
       </a>

@@ -96,9 +96,9 @@
     <div class="mb-2 flex flex-wrap justify-center gap-2">
       {#each trustBadges as badge (badge)}
         <span
-          class="flex items-center gap-1.5 rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 font-sans text-[13px] font-medium text-emerald-700"
+          class="flex items-center gap-1.5 rounded-full border border-teal-200 bg-teal-50 px-3 py-1 font-sans text-[13px] font-medium text-teal-700"
         >
-          <span class="h-2 w-2 shrink-0 rounded-full bg-emerald-500" aria-hidden="true"></span>
+          <span class="h-2 w-2 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
           {badge}
         </span>
       {/each}
@@ -110,11 +110,11 @@
         {#if tier.featured}
           <!-- featured card -->
           <div
-            class="bg-brand-hero border-brand-gold relative flex h-full flex-col rounded-2xl border-2 p-4 shadow-2xl shadow-purple-900/30"
+            class="relative flex h-full flex-col rounded-2xl border-2 border-teal-400 bg-gradient-to-br from-[#6d28d9] to-[#5b21b6] p-4 shadow-2xl shadow-purple-900/30"
           >
             <div class="absolute -top-3 left-1/2 -translate-x-1/2">
               <span
-                class="bg-brand-gold rounded-full px-3 py-0.5 text-[10px] font-bold tracking-[0.08em] whitespace-nowrap text-white uppercase"
+                class="rounded-full bg-teal-500 px-3 py-0.5 text-[10px] font-bold tracking-[0.08em] whitespace-nowrap text-white uppercase"
               >
                 {tier.badge}
               </span>
@@ -123,7 +123,7 @@
               <h3 class="mb-0.5 text-base font-extrabold tracking-[-0.02em] text-white">
                 {tier.name}
               </h3>
-              <p class="text-brand-gold/80 text-xs font-semibold">{tier.tagline}</p>
+              <p class="text-xs font-semibold text-teal-300">{tier.tagline}</p>
             </div>
             <div class="mt-2 mb-2">
               <span class="font-display text-[32px] font-black tracking-[-0.05em] text-white">
@@ -139,7 +139,7 @@
               {#each tier.features as feature (feature)}
                 <li class="text-brand-light flex items-center gap-1.5 text-sm font-medium">
                   <span
-                    class="text-brand-gold flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-white/10 text-[8px] font-bold"
+                    class="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-white/10 text-[8px] font-bold text-teal-400"
                     aria-hidden="true">✓</span
                   >
                   {feature}
@@ -147,7 +147,7 @@
               {/each}
             </ul>
             <button
-              class="bg-brand-gold mt-auto inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 font-sans text-[13px] font-bold text-white shadow-lg shadow-amber-600/30 transition-colors duration-200 hover:bg-amber-600 focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:outline-none"
+              class="mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg bg-teal-500 py-2.5 font-sans text-[13px] font-bold text-white shadow-lg shadow-teal-600/30 transition-colors duration-200 hover:bg-teal-400 focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {tier.cta} →
             </button>
@@ -183,7 +183,7 @@
               {/each}
             </ul>
             <button
-              class="bg-brand-ink focus-visible:ring-brand-accent mt-auto inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-purple-950 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+              class="bg-brand-accent mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg py-2.5 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-purple-800 focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {tier.cta} →
             </button>

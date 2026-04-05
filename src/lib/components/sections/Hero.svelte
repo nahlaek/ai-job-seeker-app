@@ -254,13 +254,13 @@
           <div class="flex items-center gap-1.5">
             <div class="relative h-9 w-9 shrink-0">
               <svg viewBox="0 0 100 100" class="h-full w-full -rotate-90" aria-hidden="true">
-                <circle cx="50" cy="50" r="40" fill="none" stroke="#ece4f5" stroke-width="12" />
+                <circle cx="50" cy="50" r="40" fill="none" stroke="#ede9fe" stroke-width="12" />
                 <circle
                   cx="50"
                   cy="50"
                   r="40"
                   fill="none"
-                  stroke="#4a1d8e"
+                  stroke="#6d28d9"
                   stroke-width="12"
                   stroke-dasharray="231.2 251.3"
                   stroke-linecap="round"
