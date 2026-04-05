@@ -26,7 +26,7 @@
   }
 </script>
 
-<section id="faq" class="flex flex-col justify-center bg-white py-8 md:min-h-[100dvh] md:py-10">
+<section id="faq" class="bg-brand-bg flex flex-col justify-center py-8 md:min-h-[100dvh] md:py-10">
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-8 max-w-2xl">
@@ -44,12 +44,12 @@
         <div class="border-brand-border border-t">
           <button
             onclick={() => toggle(i)}
-            class="text-brand-ink focus-visible:ring-brand-accent flex w-full items-center justify-between gap-4 py-4 text-left font-sans text-[15px] font-semibold transition-colors duration-150 hover:text-violet-700 focus-visible:ring-2 focus-visible:outline-none"
+            class="text-brand-ink focus-visible:ring-brand-accent flex w-full items-center justify-between gap-4 py-4 text-left font-sans text-[15px] font-semibold transition-colors duration-150 hover:text-purple-800 focus-visible:ring-2 focus-visible:outline-none"
             aria-expanded={openIndex === i}
           >
             <span>{item.question}</span>
             <span
-              class="text-brand-accent shrink-0 text-xl font-light transition-transform duration-200"
+              class="text-brand-accent bg-brand-pale flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-sm font-light transition-transform duration-200"
               class:rotate-45={openIndex === i}
               aria-hidden="true"
             >

@@ -62,10 +62,10 @@
     <div class="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
       {#each cards as card, i (card.title)}
         <div
-          class="border-brand-border bg-brand-surface hover:border-brand-light flex flex-col rounded-2xl border p-5 transition-all duration-200 hover:shadow-lg hover:shadow-violet-100/80"
+          class="border-brand-border hover:border-brand-mid/50 flex flex-col rounded-2xl border bg-white p-5 transition-all duration-200 hover:shadow-lg hover:shadow-purple-200/40"
         >
           <div
-            class="bg-brand-pale mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl"
+            class="bg-brand-gold/15 mb-3 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl"
             aria-hidden="true"
           >
             {#if i === 0}
@@ -161,7 +161,7 @@
     </div>
 
     <!-- bridge CTA -->
-    <div class="border-brand-border bg-brand-surface rounded-2xl border px-6 py-5 text-center">
+    <div class="border-brand-border rounded-2xl border bg-white px-6 py-5 text-center">
       <p class="text-brand-ink mb-3 font-sans text-base font-medium">
         These are fixable. Here's how we approach them.
       </p>

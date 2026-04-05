@@ -43,7 +43,7 @@
       {#each steps as step (step.number)}
         <div>
           <span
-            class="font-display text-brand-light/40 mb-1 block text-5xl font-black"
+            class="font-display text-brand-gold/30 mb-1 block text-5xl font-black"
             aria-hidden="true"
           >
             {step.number}

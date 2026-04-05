@@ -14,7 +14,7 @@
     <!-- logo -->
     <a
       href="/"
-      class="font-display text-brand-ink text-[15px] font-bold tracking-[-0.02em] transition-colors hover:text-violet-700"
+      class="font-display text-brand-ink text-[15px] font-bold tracking-[-0.02em] transition-colors hover:text-purple-800"
     >
       {APP_NAME}
     </a>
@@ -25,7 +25,7 @@
         {#each navLinks as link (link.href)}
           <a
             href={link.href}
-            class="text-brand-muted hover:bg-brand-pale focus-visible:ring-brand-accent rounded-full px-4 py-1.5 font-sans text-[13px] font-medium transition-colors hover:text-violet-800 focus-visible:ring-2 focus-visible:outline-none"
+            class="text-brand-muted hover:bg-brand-pale focus-visible:ring-brand-accent rounded-full px-4 py-1.5 font-sans text-[13px] font-medium transition-colors hover:text-purple-900 focus-visible:ring-2 focus-visible:outline-none"
           >
             {link.label}
           </a>
@@ -36,7 +36,7 @@
     <!-- cta -->
     <a
       href="#pricing"
-      class="bg-brand-accent focus-visible:ring-brand-accent hidden rounded-full px-5 py-2 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-violet-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none sm:inline-flex"
+      class="bg-brand-accent focus-visible:ring-brand-accent hidden rounded-full px-5 py-2 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-purple-800 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none sm:inline-flex"
     >
       Get started →
     </a>

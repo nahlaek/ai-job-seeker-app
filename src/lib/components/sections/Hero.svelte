@@ -1,17 +1,17 @@
-<section class="flex min-h-[100dvh] items-center overflow-hidden bg-white">
+<section class="bg-brand-hero flex min-h-[100dvh] items-center overflow-hidden">
   <div class="mx-auto w-full max-w-7xl px-6 py-8 lg:px-12">
     <!-- eyebrow -->
-    <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
+    <p class="text-brand-gold mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
       For job seekers in Germany
     </p>
 
     <!-- h1 -->
     <h1
-      class="text-brand-ink mb-6 max-w-2xl text-[clamp(28px,3.2vw,46px)] leading-[1.05] font-black tracking-[-0.05em]"
+      class="mb-6 max-w-2xl text-[clamp(28px,3.2vw,46px)] leading-[1.05] font-black tracking-[-0.05em] text-white"
     >
       Your German job application,
       <em
-        class="text-brand-accent decoration-brand-light mt-1 block italic underline decoration-[2px] underline-offset-6"
+        class="text-brand-gold decoration-brand-gold/40 mt-1 block italic underline decoration-[2px] underline-offset-6"
         >done right.</em
       >
     </h1>
@@ -20,7 +20,7 @@
     <div class="grid grid-cols-1 items-start gap-8 lg:grid-cols-2 lg:gap-12">
       <!-- LEFT: subheadline + social proof + CTAs + trust badges -->
       <div class="flex flex-col">
-        <p class="text-brand-muted mb-5 font-sans text-base leading-[1.65] font-normal">
+        <p class="mb-5 font-sans text-base leading-[1.65] font-normal text-white/70">
           We tailor your CV, cover letter, LinkedIn, and GitHub profile to German employer
           expectations — DIN 5008 formatting, ATS requirements, and local hiring norms included.
           Ready in minutes.
@@ -30,25 +30,25 @@
         <div class="mb-5 flex items-center gap-3">
           <div class="flex">
             <div
-              class="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white bg-violet-800"
+              class="border-brand-hero flex h-7 w-7 items-center justify-center rounded-full border-2 bg-purple-800"
               aria-hidden="true"
             >
               <span class="font-sans text-[9px] font-bold text-white">MK</span>
             </div>
             <div
-              class="-ml-2 flex h-7 w-7 items-center justify-center rounded-full border-2 border-white bg-violet-600"
+              class="border-brand-hero -ml-2 flex h-7 w-7 items-center justify-center rounded-full border-2 bg-purple-600"
               aria-hidden="true"
             >
               <span class="font-sans text-[9px] font-bold text-white">AS</span>
             </div>
             <div
-              class="bg-brand-accent -ml-2 flex h-7 w-7 items-center justify-center rounded-full border-2 border-white"
+              class="bg-brand-gold border-brand-hero -ml-2 flex h-7 w-7 items-center justify-center rounded-full border-2"
               aria-hidden="true"
             >
               <span class="font-sans text-[9px] font-bold text-white">JL</span>
             </div>
           </div>
-          <p class="text-brand-muted font-sans text-sm">500+ applicants placed in Germany</p>
+          <p class="font-sans text-sm text-white/60">500+ applicants placed in Germany</p>
         </div>
 
         <!-- CTAs -->
@@ -56,13 +56,13 @@
           <a
             href="#pricing"
             aria-label="Primary call to action"
-            class="bg-brand-accent focus-visible:ring-brand-accent inline-flex items-center justify-center gap-2 rounded-full px-6 py-2.5 font-sans text-[14px] font-bold text-white shadow-lg shadow-violet-400/30 transition-colors duration-200 hover:bg-violet-700 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+            class="focus-visible:ring-brand-gold text-brand-ink inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-2.5 font-sans text-[14px] font-bold shadow-lg shadow-black/15 transition-colors duration-200 hover:bg-white/90 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
           >
             See our plans →
           </a>
           <a
             href="#how-it-works"
-            class="border-brand-light hover:border-brand-accent hover:bg-brand-pale focus-visible:ring-brand-accent inline-flex items-center justify-center gap-2 rounded-full border px-6 py-2.5 font-sans text-[14px] font-semibold text-violet-800 transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+            class="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 px-6 py-2.5 font-sans text-[14px] font-semibold text-white transition-colors duration-200 hover:border-white/50 hover:bg-white/10 focus-visible:ring-2 focus-visible:ring-white/50 focus-visible:ring-offset-2 focus-visible:outline-none"
           >
             How it works
           </a>
@@ -71,36 +71,32 @@
         <!-- trust badges -->
         <div class="flex flex-wrap gap-1.5">
           <span
-            class="border-brand-border text-brand-muted flex items-center gap-1.5 rounded-full border bg-white px-3 py-1 font-sans text-[12px] font-medium"
+            class="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-1 font-sans text-[12px] font-medium text-white/80"
           >
-            <span class="bg-brand-accent h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"
-            ></span>
+            <span class="bg-brand-gold h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"></span>
             <span
               title="Formatted to pass automated applicant tracking systems used by German employers"
               >ATS-ready</span
             >
           </span>
           <span
-            class="border-brand-border text-brand-muted flex items-center gap-1.5 rounded-full border bg-white px-3 py-1 font-sans text-[12px] font-medium"
+            class="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-1 font-sans text-[12px] font-medium text-white/80"
           >
-            <span class="bg-brand-accent h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"
-            ></span>
+            <span class="bg-brand-gold h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"></span>
             <span title="Follows Germany's official letter and document formatting standard"
               >DIN 5008</span
             >
           </span>
           <span
-            class="border-brand-border text-brand-muted flex items-center gap-1.5 rounded-full border bg-white px-3 py-1 font-sans text-[12px] font-medium"
+            class="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-1 font-sans text-[12px] font-medium text-white/80"
           >
-            <span class="bg-brand-accent h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"
-            ></span>
+            <span class="bg-brand-gold h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"></span>
             <span title="Job application costs are tax-deductible in Germany">Werbungskosten</span>
           </span>
           <span
-            class="border-brand-border text-brand-muted flex items-center gap-1.5 rounded-full border bg-white px-3 py-1 font-sans text-[12px] font-medium"
+            class="flex items-center gap-1.5 rounded-full border border-white/20 bg-white/10 px-3 py-1 font-sans text-[12px] font-medium text-white/80"
           >
-            <span class="bg-brand-accent h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"
-            ></span>
+            <span class="bg-brand-gold h-1.5 w-1.5 shrink-0 rounded-full" aria-hidden="true"></span>
             <span title="Your data is handled under EU data protection law">GDPR-compliant</span>
           </span>
         </div>
@@ -109,7 +105,7 @@
       <!-- RIGHT: vertical Before → After comparison -->
       <div class="flex flex-col gap-3">
         <!-- BEFORE block -->
-        <div class="rounded-xl border border-gray-200 bg-gray-50 p-3">
+        <div class="rounded-xl border border-white/10 bg-white p-3 shadow-xl shadow-black/20">
           <!-- badge + ATS dial -->
           <div class="mb-2.5 flex items-center justify-between">
             <span
@@ -155,7 +151,7 @@
           <!-- skeleton CV + problem bullets side by side -->
           <div class="flex gap-3">
             <!-- Mini CV skeleton -->
-            <div class="w-28 shrink-0 rounded-lg border border-gray-200 bg-white p-2">
+            <div class="w-28 shrink-0 rounded-lg border border-gray-200 bg-gray-50 p-2">
               <div class="mb-1.5 flex items-center gap-1.5">
                 <div class="h-5 w-5 shrink-0 rounded-full bg-gray-200"></div>
                 <div>
@@ -209,7 +205,7 @@
         <!-- Arrow separator -->
         <div class="flex items-center justify-center">
           <div class="flex flex-col items-center gap-0.5">
-            <div class="h-3 w-px bg-gray-300"></div>
+            <div class="h-3 w-px bg-white/30"></div>
             <svg
               width="14"
               height="14"
@@ -219,7 +215,7 @@
               stroke-width="2.5"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="text-brand-accent"
+              class="text-brand-gold"
               aria-hidden="true"
             >
               <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -229,7 +225,9 @@
         </div>
 
         <!-- AFTER block -->
-        <div class="rounded-xl border border-violet-200 bg-violet-50/40 p-3">
+        <div
+          class="border-brand-mid/20 rounded-xl border bg-white p-3 shadow-xl shadow-purple-500/15"
+        >
           <!-- badge + ATS dial -->
           <div class="mb-2.5 flex items-center justify-between">
             <span
@@ -240,13 +238,13 @@
             <div class="flex items-center gap-1.5">
               <div class="relative h-9 w-9 shrink-0">
                 <svg viewBox="0 0 100 100" class="h-full w-full -rotate-90" aria-hidden="true">
-                  <circle cx="50" cy="50" r="40" fill="none" stroke="#ede9fe" stroke-width="12" />
+                  <circle cx="50" cy="50" r="40" fill="none" stroke="#ece4f5" stroke-width="12" />
                   <circle
                     cx="50"
                     cy="50"
                     r="40"
                     fill="none"
-                    stroke="#7c3aed"
+                    stroke="#4a1d8e"
                     stroke-width="12"
                     stroke-dasharray="231.2 251.3"
                     stroke-linecap="round"
@@ -276,10 +274,10 @@
           <div class="flex gap-3">
             <!-- Optimized CV preview card -->
             <div
-              class="w-44 shrink-0 overflow-hidden rounded-lg border border-violet-200 shadow-sm shadow-violet-100"
+              class="border-brand-line w-44 shrink-0 overflow-hidden rounded-lg border shadow-sm shadow-purple-100"
             >
               <!-- purple header bar -->
-              <div class="flex items-center justify-between bg-violet-900 px-2 py-1">
+              <div class="bg-brand-hero flex items-center justify-between px-2 py-1">
                 <div class="flex items-center gap-1">
                   <svg
                     width="9"
@@ -309,12 +307,12 @@
                   <p class="font-sans text-[10px] font-black tracking-tight text-gray-900">
                     MAX MUSTER
                   </p>
-                  <p class="font-sans text-[9px] font-semibold text-violet-600">
+                  <p class="text-brand-accent font-sans text-[9px] font-semibold">
                     Software Engineer
                   </p>
                   <p class="font-sans text-[8px] text-gray-400">max@email.de</p>
                 </div>
-                <div class="rounded bg-violet-50 p-1">
+                <div class="bg-brand-pale/50 rounded p-1">
                   <p
                     class="mb-0.5 font-sans text-[6px] font-bold tracking-widest text-gray-400 uppercase"
                   >
@@ -324,7 +322,7 @@
                     Passionate software engineer focused on scalable web apps...
                   </p>
                 </div>
-                <div class="rounded bg-violet-50 p-1">
+                <div class="bg-brand-pale/50 rounded p-1">
                   <p
                     class="mb-0.5 font-sans text-[6px] font-bold tracking-widest text-gray-400 uppercase"
                   >
@@ -332,24 +330,24 @@
                   </p>
                   <div class="flex flex-wrap gap-0.5">
                     <span
-                      class="rounded-full border border-violet-200 bg-white px-1 py-0.5 font-sans text-[7px] font-medium text-violet-700"
+                      class="border-brand-line text-brand-accent rounded-full border bg-white px-1 py-0.5 font-sans text-[7px] font-medium"
                       >JavaScript</span
                     >
                     <span
-                      class="rounded-full border border-violet-200 bg-white px-1 py-0.5 font-sans text-[7px] font-medium text-violet-700"
+                      class="border-brand-line text-brand-accent rounded-full border bg-white px-1 py-0.5 font-sans text-[7px] font-medium"
                       >TypeScript</span
                     >
                     <span
-                      class="rounded-full border border-violet-200 bg-white px-1 py-0.5 font-sans text-[7px] font-medium text-violet-700"
+                      class="border-brand-line text-brand-accent rounded-full border bg-white px-1 py-0.5 font-sans text-[7px] font-medium"
                       >React</span
                     >
                     <span
-                      class="rounded-full border border-violet-200 bg-white px-1 py-0.5 font-sans text-[7px] font-medium text-violet-700"
+                      class="border-brand-line text-brand-accent rounded-full border bg-white px-1 py-0.5 font-sans text-[7px] font-medium"
                       >Node.js</span
                     >
                   </div>
                 </div>
-                <div class="rounded bg-violet-50 p-1">
+                <div class="bg-brand-pale/50 rounded p-1">
                   <p
                     class="mb-0.5 font-sans text-[6px] font-bold tracking-widest text-gray-400 uppercase"
                   >

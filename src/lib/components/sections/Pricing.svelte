@@ -110,11 +110,11 @@
         {#if tier.featured}
           <!-- featured card -->
           <div
-            class="border-brand-accent bg-brand-ink relative flex h-full flex-col rounded-2xl border-2 p-4 shadow-2xl shadow-violet-500/25"
+            class="bg-brand-hero border-brand-gold relative flex h-full flex-col rounded-2xl border-2 p-4 shadow-2xl shadow-purple-900/30"
           >
             <div class="absolute -top-3 left-1/2 -translate-x-1/2">
               <span
-                class="bg-brand-accent rounded-full px-3 py-0.5 text-[10px] font-bold tracking-[0.08em] whitespace-nowrap text-white uppercase"
+                class="bg-brand-gold rounded-full px-3 py-0.5 text-[10px] font-bold tracking-[0.08em] whitespace-nowrap text-white uppercase"
               >
                 {tier.badge}
               </span>
@@ -123,14 +123,14 @@
               <h3 class="mb-0.5 text-base font-extrabold tracking-[-0.02em] text-white">
                 {tier.name}
               </h3>
-              <p class="text-brand-mid text-xs font-semibold">{tier.tagline}</p>
+              <p class="text-brand-gold/80 text-xs font-semibold">{tier.tagline}</p>
             </div>
             <div class="mt-2 mb-2">
               <span class="font-display text-[32px] font-black tracking-[-0.05em] text-white">
                 {tier.price}
               </span>
               <span
-                class="text-brand-mid ml-1 text-[10px] font-semibold tracking-[0.08em] uppercase"
+                class="text-brand-light ml-1 text-[10px] font-semibold tracking-[0.08em] uppercase"
               >
                 {tier.cadence}
               </span>
@@ -139,7 +139,7 @@
               {#each tier.features as feature (feature)}
                 <li class="text-brand-light flex items-center gap-1.5 text-sm font-medium">
                   <span
-                    class="text-brand-mid flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-violet-800/40 text-[8px] font-bold"
+                    class="text-brand-gold flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-white/10 text-[8px] font-bold"
                     aria-hidden="true">✓</span
                   >
                   {feature}
@@ -147,14 +147,14 @@
               {/each}
             </ul>
             <button
-              class="bg-brand-accent mt-auto inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 font-sans text-[13px] font-bold text-white shadow-lg shadow-violet-400/30 transition-colors duration-200 hover:bg-violet-700 focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:outline-none"
+              class="bg-brand-gold mt-auto inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 font-sans text-[13px] font-bold text-white shadow-lg shadow-amber-600/30 transition-colors duration-200 hover:bg-amber-600 focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {tier.cta} →
             </button>
           </div>
         {:else}
           <!-- standard card -->
-          <div class="border-brand-line flex h-full flex-col rounded-2xl border bg-white p-4">
+          <div class="border-brand-border flex h-full flex-col rounded-2xl border bg-white p-4">
             <div class="min-h-[3.25rem]">
               <h3 class="text-brand-ink mb-0.5 text-base font-extrabold tracking-[-0.02em]">
                 {tier.name}
@@ -183,7 +183,7 @@
               {/each}
             </ul>
             <button
-              class="bg-brand-ink focus-visible:ring-brand-accent mt-auto inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-violet-950 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+              class="bg-brand-ink focus-visible:ring-brand-accent mt-auto inline-flex w-full items-center justify-center gap-2 rounded-full py-2.5 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-purple-950 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {tier.cta} →
             </button>

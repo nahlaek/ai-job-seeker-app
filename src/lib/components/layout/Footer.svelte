@@ -4,8 +4,8 @@
   const year = new Date().getFullYear()
 </script>
 
-<footer class="border-t border-gray-200 bg-white">
-  <div class="container mx-auto px-4 py-8 text-center text-sm text-gray-500">
+<footer class="bg-brand-hero border-t border-purple-900/30">
+  <div class="container mx-auto px-4 py-8 text-center text-sm text-white/50">
     &copy; {year}
     {APP_NAME}
   </div>

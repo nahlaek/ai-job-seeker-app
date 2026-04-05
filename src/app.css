@@ -3,24 +3,26 @@
 @plugin '@tailwindcss/forms';
 
 @theme {
-  --color-brand-bg: #f8f7ff;
-  --color-brand-surface: #faf9ff;
-  --color-brand-border: #ede9fe;
-  --color-brand-line: #e5e0ff;
-  --color-brand-ink: #1a1040;
-  --color-brand-muted: #6b5f8a;
-  --color-brand-hint: #8b7baa;
-  --color-brand-accent: #7c3aed;
-  --color-brand-mid: #a78bfa;
-  --color-brand-light: #c4b5fd;
-  --color-brand-pale: #ede9fe;
+  --color-brand-bg: #f7f2e8;
+  --color-brand-surface: #faf6ee;
+  --color-brand-border: #e8dfc9;
+  --color-brand-line: #ddd3bc;
+  --color-brand-ink: #1e0e3e;
+  --color-brand-muted: #5c4e73;
+  --color-brand-hint: #7d7190;
+  --color-brand-accent: #4a1d8e;
+  --color-brand-mid: #7c5cbf;
+  --color-brand-light: #b8a3d9;
+  --color-brand-pale: #ece4f5;
+  --color-brand-gold: #c89530;
+  --color-brand-hero: #2b1555;
   --font-display: 'Fraunces', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
 html {
-  background-color: #f8f7ff;
-  color: #1a1040;
+  background-color: #f7f2e8;
+  color: #1e0e3e;
   scroll-behavior: smooth;
   scroll-padding-top: 72px;
 }
