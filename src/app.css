@@ -40,3 +40,12 @@ h3,
 h4 {
   font-family: var(--font-display);
 }
+
+.fading-grid {
+  background-image:
+    linear-gradient(to right, rgba(139, 92, 246, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(139, 92, 246, 0.08) 1px, transparent 1px);
+  background-size: 72px 72px;
+  -webkit-mask-image: radial-gradient(ellipse 65% 55% at 50% 50%, transparent 20%, black 75%);
+  mask-image: radial-gradient(ellipse 65% 55% at 50% 50%, transparent 20%, black 75%);
+}

@@ -20,9 +20,12 @@
 
 <section
   id="how-it-works"
-  class="flex flex-col justify-center bg-white py-8 md:min-h-[100dvh] md:py-10"
+  class="relative flex flex-col justify-center overflow-hidden bg-white py-8 md:min-h-[100dvh] md:py-10"
 >
-  <div class="mx-auto max-w-6xl px-9">
+  <!-- Fading grid background -->
+  <div class="fading-grid absolute inset-0" aria-hidden="true"></div>
+
+  <div class="relative z-10 mx-auto max-w-6xl px-9">
     <!-- header -->
     <div class="mb-8 max-w-2xl">
       <p class="text-brand-accent mb-3 text-[11px] font-bold tracking-[0.22em] uppercase">
