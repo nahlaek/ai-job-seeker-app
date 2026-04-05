@@ -27,7 +27,7 @@
 
 <section
   id="pain-points"
-  class="flex flex-col justify-center bg-white py-8 md:min-h-[100dvh] md:py-10"
+  class="bg-brand-bg flex flex-col justify-center py-8 md:min-h-[100dvh] md:py-10"
 >
   <div class="relative mx-auto max-w-6xl px-9">
     <!-- header -->

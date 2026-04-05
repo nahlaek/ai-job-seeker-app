@@ -20,7 +20,7 @@
 
 <section
   id="how-it-works"
-  class="flex flex-col justify-center bg-[#f8f7ff] py-8 md:min-h-[100dvh] md:py-10"
+  class="flex flex-col justify-center bg-white py-8 md:min-h-[100dvh] md:py-10"
 >
   <div class="mx-auto max-w-6xl px-9">
     <!-- header -->

@@ -1,9 +1,8 @@
 <script lang="ts">
   import Hero from '$lib/components/sections/Hero.svelte'
   import PainPoints from '$lib/components/sections/PainPoints.svelte'
-  import Pricing from '$lib/components/sections/Pricing.svelte'
   import HowItWorks from '$lib/components/sections/HowItWorks.svelte'
-  import BeforeAfter from '$lib/components/sections/BeforeAfter.svelte'
+  import Pricing from '$lib/components/sections/Pricing.svelte'
   import Faq from '$lib/components/sections/Faq.svelte'
 </script>
 
@@ -17,7 +16,6 @@
 
 <Hero />
 <PainPoints />
-<BeforeAfter />
-<Pricing />
 <HowItWorks />
+<Pricing />
 <Faq />

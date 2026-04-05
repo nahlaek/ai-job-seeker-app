@@ -78,7 +78,7 @@
   ]
 </script>
 
-<section id="pricing" class="flex flex-col bg-white py-4 md:h-[calc(100dvh-3.5rem)] md:py-5">
+<section id="pricing" class="bg-brand-bg flex flex-col py-4 md:h-[calc(100dvh-3.5rem)] md:py-5">
   <div class="mx-auto flex w-full max-w-[90rem] flex-col px-4 sm:px-6 md:flex-1 lg:px-8">
     <!-- header -->
     <div class="mb-1.5 text-center">

@@ -3,9 +3,8 @@
 
   const navLinks = [
     { label: 'The Problem', href: '#pain-points' },
-    { label: 'Results', href: '#transformation' },
-    { label: 'Pricing', href: '#pricing' },
     { label: 'How It Works', href: '#how-it-works' },
+    { label: 'Pricing', href: '#pricing' },
     { label: 'FAQ', href: '#faq' },
   ]
 </script>

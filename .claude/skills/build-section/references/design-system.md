@@ -411,8 +411,8 @@ Note: h1 inherits `font-display` from the global `h1` rule in `app.css`.
 ```
 Hero           → bg-brand-bg   (lavender-white)
 Pain Points    → bg-white      (clean white, contrast)
-Pricing        → bg-brand-bg
-How it works   → bg-white
+How it works   → bg-brand-bg
+Pricing        → bg-white
 FAQ            → bg-brand-bg
 Final CTA      → bg-brand-ink  (dark navy)
 Footer         → bg-[#100d2e]
