@@ -15,7 +15,7 @@
     {
       question: 'How is my data handled?',
       answer:
-        'We are fully GDPR-compliant. Your personal data is processed solely for the purpose of creating your application documents. We do not share, sell, or retain your data beyond the service delivery period. You can request deletion at any time. Our Datenschutzerklärung is available on this page.',
+        'We are fully GDPR-compliant. Your personal data is processed solely for the purpose of creating your application documents. We do not share, sell, or retain your data beyond the service delivery period and is permanently deleted within 30 days of delivery.',
     },
   ]
 
