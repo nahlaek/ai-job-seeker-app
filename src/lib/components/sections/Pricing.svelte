@@ -1,4 +1,11 @@
 <script lang="ts">
+  import {
+    PUBLIC_TALLY_FORM_CV_REWRITE,
+    PUBLIC_TALLY_FORM_FULL_APPLICATION,
+    PUBLIC_TALLY_FORM_IT_COMPLETE,
+    PUBLIC_TALLY_FORM_90_DAY_ACCELERATOR,
+  } from '$env/static/public'
+
   type Tier = {
     name: string
     tagline: string
@@ -7,6 +14,7 @@
     features: string[]
     cta: string
     delivery: string
+    formId: string
     featured?: boolean
     badge?: string
   }
@@ -19,6 +27,7 @@
       cadence: 'one-time',
       cta: 'Get started',
       delivery: 'Delivered same day',
+      formId: PUBLIC_TALLY_FORM_CV_REWRITE,
       features: [
         'ATS-optimized CV rewrite',
         'German market formatting (DIN 5008)',
@@ -34,6 +43,7 @@
       cadence: 'one-time',
       cta: 'Get started',
       delivery: 'Delivered in ~48h',
+      formId: PUBLIC_TALLY_FORM_FULL_APPLICATION,
       features: [
         'Everything in CV Rewrite',
         'Personalized cover letter tailored to your target job',
@@ -49,6 +59,7 @@
       cadence: 'one-time · for IT professionals',
       cta: 'Get started',
       delivery: 'Delivered in ~48h',
+      formId: PUBLIC_TALLY_FORM_IT_COMPLETE,
       featured: true,
       badge: 'MOST POPULAR',
       features: [
@@ -66,6 +77,7 @@
       cadence: 'one-time · for IT professionals',
       cta: 'Get started',
       delivery: 'Active for 90 days',
+      formId: PUBLIC_TALLY_FORM_90_DAY_ACCELERATOR,
       features: [
         'Everything in IT Complete',
         'Technical interview prep (system design, coding)',
@@ -157,11 +169,14 @@
                 </li>
               {/each}
             </ul>
-            <button
+            <a
+              href="https://tally.so/r/{tier.formId}"
+              target="_blank"
+              rel="noopener noreferrer"
               class="mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg bg-teal-500 py-3 font-sans text-[13px] font-bold text-white shadow-lg shadow-teal-600/30 transition-colors duration-200 hover:bg-teal-400 focus-visible:ring-2 focus-visible:ring-teal-300 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {tier.cta} →
-            </button>
+            </a>
             <p
               class="mt-3 flex items-center justify-center gap-1.5 text-[12px] font-medium text-white/60"
             >
@@ -213,11 +228,14 @@
                 </li>
               {/each}
             </ul>
-            <button
+            <a
+              href="https://tally.so/r/{tier.formId}"
+              target="_blank"
+              rel="noopener noreferrer"
               class="bg-brand-accent mt-auto inline-flex w-full items-center justify-center gap-2 rounded-lg py-3 font-sans text-[13px] font-bold text-white transition-colors duration-200 hover:bg-purple-800 focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2 focus-visible:outline-none"
             >
               {tier.cta} →
-            </button>
+            </a>
             <p
               class="text-brand-hint mt-3 flex items-center justify-center gap-1.5 text-[12px] font-medium"
             >
