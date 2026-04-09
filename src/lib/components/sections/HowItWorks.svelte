@@ -34,7 +34,7 @@
       <h2
         class="text-brand-ink mb-4 text-[clamp(28px,4vw,44px)] leading-[1.1] font-extrabold tracking-[-0.04em]"
       >
-        Three steps. Done in minutes.
+        Three steps. Done in less than 24 hours.
       </h2>
       <p class="text-brand-muted text-lg leading-[1.7]">
         No calls, no back-and-forth. Just a clean handoff and a polished result.
